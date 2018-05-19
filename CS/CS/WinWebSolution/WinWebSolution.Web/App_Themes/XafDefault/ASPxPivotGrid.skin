@@ -1,0 +1,14 @@
+﻿<%@ Register Assembly="DevExpress.Web.ASPxPivotGrid.v8.3" Namespace="DevExpress.Web.ASPxPivotGrid" TagPrefix="dxwpg" %>
+<dxwpg:ASPxPivotGrid runat="server">
+	<Styles CssFilePath="~/App_Themes/XafDefault/{0}/styles.css" CssPostfix="xaf">
+		<CustomizationFieldsHeaderStyle>
+			<Paddings PaddingRight="6px" PaddingLeft="12px" />
+		</CustomizationFieldsHeaderStyle>	
+	</Styles>
+	<Images ImageFolder="~/App_Themes/XafDefault/{0}/">
+		<HeaderSortUp Url="~/App_Themes/XafDefault/PivotGrid/pgHeaderSortUp.png" Width="7px" Height="8px" />
+		<HeaderSortDown Url="~/App_Themes/XafDefault/PivotGrid/pgHeaderSortDown.png" Width="7px" Height="8px" />		
+		<FieldValueExpanded Url="~/App_Themes/XafDefault/PivotGrid/pgExpandedButton.png" Width="11px" Height="12px" />
+		<FieldValueCollapsed Url="~/App_Themes/XafDefault/PivotGrid/pgCollapsedButton.png" Width="11px" Height="12px" />
+	</Images>	
+</dxwpg:ASPxPivotGrid>
